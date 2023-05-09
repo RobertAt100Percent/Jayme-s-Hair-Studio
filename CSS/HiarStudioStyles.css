@@ -16,10 +16,10 @@
 
 /*
     this is a resource for backgorund images in bootstrap and ways to style them
-*/
 body{
     background-color:beige;
-}
+}*/
+
 /* Styles for background image (I want different background images for every page)*/
 #indexImg{
     background-image: url('https://primewomen.com/wp-content/uploads/2021/10/Highlights-on-black-hair-feature.jpg');
