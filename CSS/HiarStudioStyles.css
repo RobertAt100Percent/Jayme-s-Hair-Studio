@@ -1,0 +1,173 @@
+/*  
+    TODO (for styles only, aby work for a specific page needs to be addressed ina comment, in the head tags of that web page):
+    o make text and images responisive 
+    o format the navigation bar
+    o design a booking page
+    o flesh out the other pages with more general content
+
+    Pictures we can use for the website :
+    o https://www.istockphoto.com/search/2/image?family=creative&phrase=natural%20black%20hair (these are really good images for a mobile screen size)
+    o https://images.pexels.com/photos/1319462/pexels-photo-1319462.jpeg?auto=compress&cs=tinysrgb&w=600
+    o https://images.pexels.com/photos/853427/pexels-photo-853427.jpeg?auto=compress&cs=tinysrgb&w=600
+    o https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=600
+    o https://media.cnn.com/api/v1/images/stellar/prod/221021123823-03-hair-straighteners-hair-styling.jpg?c=original
+    these websites have a lot of 
+*/
+
+/*
+    this is a resource for backgorund images in bootstrap and ways to style them
+*/
+body{
+    background-color:beige;
+}
+/* Styles for background image (I want different background images for every page)*/
+#indexImg{
+    background-image: url('https://primewomen.com/wp-content/uploads/2021/10/Highlights-on-black-hair-feature.jpg');
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;              /* optional, center the image */
+}
+#ServicesImg{
+    background-image: url('https://primewomen.com/wp-content/uploads/2021/10/Highlights-on-black-hair-feature.jpg');
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;              /* optional, center the image */
+}
+#AboutImg{
+    background-image: url('https://www.lorealparisusa.com/-/media/project/loreal/brand-sites/oap/americas/us/beauty-magazine/2022/december/12-9/highlights-for-black-hair/highlights-for-black-hair.jpg');
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;              /* optional, center the image */
+}
+#TestimonialsImg{
+    background-image: url('https://primewomen.com/wp-content/uploads/2021/10/Highlights-on-black-hair-2.jpg');
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;              /* optional, center the image */
+}
+/* Styles for the nav */
+
+.Header111{
+    font-size: 80px;/*9vw*/
+    /* Center vertically and horizontally */
+    display: flex;
+    /*position: relative;*/
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    top: 25%;
+    /* more styles*/
+    height: 200px;
+    max-width: 600px;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: aliceblue;
+    display: block;
+}
+
+.indexContent{
+    font-size: 20px;/*2.2vw*/
+    font-weight: bold;
+    /* Center vertically and horizontally */
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    top: 25%;
+    /*styles*/
+    display: block;
+    max-width: 275px;
+    max-height: 50px;
+    padding: 5px;
+    -webkit-text-stroke: .2px black;
+    color:azure;
+    /*
+    text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
+    */
+}
+
+.aboutContent{
+    font-size: 20px;/*2.2vw*/
+    font-weight: bold;
+    /* Center vertically and horizontally */
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    top: 5%;
+    /*styles*/
+    display: block;
+    padding: 5px;
+    -webkit-text-stroke: .2px black;
+    color:azure;
+    /*
+    text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
+    */
+}
+
+.SerivceColor{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.AboutColor{
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 690px;
+}
+
+.btnCenter{
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+/*
+Media query for services
+*/
+
+@media only screen and (max-width: 991px)  {
+    .ThisIsHidden991{
+        display: none;
+    }
+}
+
+/*
+Media query for headers
+*/
+
+@media only screen and (max-width: 301px)  {
+    .HeaderSize301{
+        font-size: 27vw;/**/
+    }
+}
+
+@media only screen and (max-width: 342px)  {
+    .AboutHeaderSize342{
+        font-size: 22vw;/**/
+    }
+}
+
+
+

@@ -1,0 +1,64 @@
+This is a reference sheet for Jayme's template website HairStudio.com
+requirements (follow this link for more https://www.eukhost.com/blog/webhosting/7-features-every-hair-salon-website-needs/): 
+o Mobile-friendly design
+    - most people will be viewing our website from their phone and this is an important aspect that we need to face for this project
+
+o High-quality gallery
+    - because this is a hair salon and the product is a service we need to show this well
+    - for purposes of this project we'll be using 
+
+o Online booking 
+    - this is important because this is how the hair stylist will make money and secure their appointment
+    - because we are learning about fornt end development we will try to make our own check out page
+    - there are many ways to excute a booking/checkout page no matter what the boomming page needs:
+        o show the stylist avalibality (usually on a calender)
+        o show cost and avalibale hair styles
+        o the salons phone number
+
+web site references (here is a link of all the "best" salons in pittsburgh https://www.expertise.com/pa/pittsburgh/hair-salons):
+o http://salonivy.net/ 
+    - this website has a lot it can improved upon. the layout is basic, pictures used are grainy and the nav bar is not user friendly at anything lass then 767px wide
+    - good for reference as far as content but the actuall website needs a lot of work
+    - also this page is not responisve for phone or tablet view
+
+o https://www.alchemydrycutlounge.com/ 
+    - good use of JavaScript.
+    - responsive web page with a good nav bar 
+    - some links to the nav bar go to other tabs but this is in general a good web site
+
+o https://bloominhair.com/ 
+    - very good website design
+    - doesnt break at any viewport
+    - good nav bar
+    - almost looks better on a phone 
+    - good use of pictures
+    - this is a small website that has only 5 pages. this is a great example of a small, professonal, well thought out website
+
+o https://www.cardamonessalon.net/
+    - this website has a great layout and generally shows what we need for the hair salon website
+    - its not very responisve. the website breaks at many view points that not a laptop 
+    - this is really good for a reference
+
+o https://deanofshadyside.com/ 
+    - this is another good basic hair salon website. this is a great example of the tyoe of webstie we want to be able to make/design
+    - the website as a whole is really good with a responsive design and alomst none of the elements break. 
+    - the nav bar is constant and has a mobile and desktop design. the nav breaks on some pages so there is an argument for consticney for the nav 
+    but the design of the navigatioin is really good
+    - I think they developer used a grid layout for this webpages design. when switching between mobile and desktop
+    I noticed that the images would move to different parts of the webpage at different viewports
+    - after going though these hair salon pages i noticed that most of the home, contact, and about pages are relatively similar with a 
+    short description, few images, a button to schedule an appointment and a google maps section to show where the salon is with a link to the address in google maps
+    - also intrestingly i did not expect hair salons to have their own blogs and articles, so some salon websites have a whole section for these blogs
+
+These are the links needed to use BootStrap. BootStrap is a framework in HTML, CSS, and JavaScript. this allows us to make webpages way faster because
+there are alot of predefined classes and functions in the framework. we work faster because we do not have to make classes, just have to read and understand documentation.
+we can add our own styles but becareful that the custom styles do not conflict with BootStrap because it will led to bugs.
+these are the links needed to use the newest version of BootStrap: 
+    BootStrap CSS:
+    o <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    BootStrap JavaScript: 
+    o   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    o   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    o   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    o   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
