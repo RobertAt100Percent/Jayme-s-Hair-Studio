@@ -22,16 +22,7 @@ body{
 
 /* Styles for background image (I want different background images for every page)*/
 #indexImg{
-    background-image: url('https://primewomen.com/wp-content/uploads/2021/10/Highlights-on-black-hair-feature.jpg');
-    height:100vh;
-    width: 100%;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;              /* optional, center the image */
-}
-#ServicesImg{
-    background-image: url('https://primewomen.com/wp-content/uploads/2021/10/Highlights-on-black-hair-feature.jpg');
+    background-image: url('../Images/Home_Page.jpg');
     height:100vh;
     width: 100%;
     background-position:center;
@@ -40,7 +31,7 @@ body{
     background-attachment: fixed;              /* optional, center the image */
 }
 #AboutImg{
-    background-image: url('https://www.lorealparisusa.com/-/media/project/loreal/brand-sites/oap/americas/us/beauty-magazine/2022/december/12-9/highlights-for-black-hair/highlights-for-black-hair.jpg');
+    background-image: url('../Images/About_Page.jpg');
     height:100vh;
     width: 100%;
     background-position:center;
@@ -48,8 +39,8 @@ body{
     background-size: cover;
     background-attachment: fixed;              /* optional, center the image */
 }
-#TestimonialsImg{
-    background-image: url('https://primewomen.com/wp-content/uploads/2021/10/Highlights-on-black-hair-2.jpg');
+#SerivceImg{
+    background-image: url('../Images/Service_Page.jpg');
     height:100vh;
     width: 100%;
     background-position:center;
