@@ -57,6 +57,24 @@ body{
     background-size: cover;
     background-attachment: fixed;              /* optional, center the image */
 }
+#BookingImg{
+    background-image: url('https://media1.popsugar-assets.com/files/thumbor/CrBb9ifXRBDIc-7HaHWAUTIBPXg/0x0:5714x3000/fit-in/1200x630/filters:format_auto-!!-:strip_icc-!!-/2021/07/21/768/n/1922153/c1479ff060f858ede84f23.34474278_.jpg');
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;              /* optional, center the image */
+}
+/*Styles for service cards*/
+#ServiceCardImg{
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;              /* optional, center the image */
+}
 /* Styles for the nav */
 
 .Header111{
