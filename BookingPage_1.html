@@ -87,6 +87,9 @@ TODO:
               o allow the user to pick a date for their appointment<br>
               o send a confirmration email to the user about thier appointment 
           </p>
+          <p>
+
+          </p>
         <hr>
 
         <button onclick="geek()">
@@ -97,11 +100,18 @@ TODO:
         <hr>
 
         <form name="dropForm">
-          <select name="dropSelect" onchange="showDropInfo()">
+          <select name="dropSelect" onchange="BPHairCut()">
              <option value="P">Select:</option>
              <option value="A">Option 1</option>
              <option value="B">Option 2</option>
              <option value="C">Option 3</option>
+             <option><a class="dropdown-item" href="#"><span>Haircut</span></a></option>
+             <option><a class="dropdown-item" href="#"><span>Shampoo & Blow-Out</span></a></option>
+             <option><a class="dropdown-item" href="#"><span>Conditioning Treatment</span></a></option>
+             <option><a class="dropdown-item" href="#"><span>Highlights</span></a></option>
+             <option><a class="dropdown-item" href="#"><span>Perm</span></a></option>
+             <option><a class="dropdown-item" href="#"><span>Single Process</span></a></option>
+
           </select>
        </form>
        <p id="pF"></p>
