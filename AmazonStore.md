@@ -95,9 +95,9 @@ For coupons, we can offer a percentage or hard money-off discount with digital c
 
 The first 90 days of our Amazon store are going to be important because it is where most of our growth is. The first months are for establishing practices that will boost your performance from there on out. Here is a list of general things we need for our Amazon store to be good for selling: 
 
-O Keep an eye on your account health in Seller Central <>
-O Use Fulfillment by Amazon or Seller Fulfilled Prime 
-O Advertise your listings or offer deals and coupons 
-O Enroll in Brand Registry and create enhanced brand content 
-O Expand your selection by listing more products 
-O Use the Automate Pricing Tool in Seller Central
+O Keep an eye on your account health in Seller Central <br />
+O Use Fulfillment by Amazon or Seller Fulfilled Prime <br />
+O Advertise your listings or offer deals and coupons <br />
+O Enroll in Brand Registry and create enhanced brand content<br /> 
+O Expand your selection by listing more products <br />
+O Use the Automate Pricing Tool in Seller Central<br />
