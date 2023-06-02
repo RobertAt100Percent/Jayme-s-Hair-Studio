@@ -1,3 +1,9 @@
+<!-- 
+
+this is the reference for how to use a md file :
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings
+
+ -->
 # Guide to Selling on Amazon
 
 We are trying to make an Amazon sellers page for Jayme’s to sell hair and wigs. This will help her make money more easily and centralize her sales, helping her business and making her appear more professional.
