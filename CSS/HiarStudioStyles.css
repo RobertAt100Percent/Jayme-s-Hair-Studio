@@ -173,6 +173,31 @@ Media query for services
         display: none;
     }
 }
+@media only screen and (min-width: 991px)  {
+    .GoBottomLeft{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+}
+
+@media only screen and (min-width: 1200px)  {
+    .MaxSizeService{
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)  {
+    .MediumSizeService{
+        height: 320px;
+        width: 300px;
+    }
+    .ThisIsHidden1199{
+        display: none;
+    }
+}
+
 
 /*
 Media query for headers
