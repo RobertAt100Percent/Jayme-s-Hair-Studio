@@ -11,14 +11,80 @@
 TODO:
     o footer
 -->
-
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" href="fonts/icomoon/style.css"> -->
 <!-- Bootstrap CSS-->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 <!-- Custom CSS -->
 <link rel="stylesheet" href="./CSS/HiarStudioStyles.css">
 
-
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  </style>
 </head><!--end of the head-->
 
 <!-- the body-->
@@ -58,15 +124,32 @@ TODO:
 
     <p class="aboutP">
       This is a independent, black owned Business. Get your hair done by a real licensed cosmetologist. 
+      You can click the book now button below and choose a service and time to book.
+      If you have any request, comments are concerns please email me with the information below.
       </p>
 
-      <p>
-        
-      </p>
+      <button class="btnCenter"> <a href="BookingPage_1.html"> Book Now </a>&#187;</button>
+
+
+      <form action="mailto:broozerdaniels@yahoo.com" method="post" enctype="text/plain">
+        Name:<br>
+        <input type="text" name="name" autocomplete="given-name"><br><br>
+        E-mail:<br>
+        <input type="text" name="mail" autocomplete="email"><br><br>
+        Comment:<br>
+        <input type="text" name="comment" size="80" autocomplete="off"><br><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+        </form>
+
+        <div id="form-message-warning mt-4"></div>
+        <div id="form-message-success">
+        Your message was sent, thank you!
+        </div>
     <br>
-    <button class="btnCenter"> <a href="BookingPage_1.html"> Book Now </a>&#187;</button>
 </div>
-
+<br><br><br>
+<br><br><br>
 <!-- 
     JavaScript
 
@@ -76,7 +159,9 @@ TODO:
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/main.js"></script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7d41c81e9bd9f7e0","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.4.0","si":100}' crossorigin="anonymous"></script>
+  
 </body>
 </html>

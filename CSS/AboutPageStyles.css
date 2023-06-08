@@ -1,0 +1,384 @@
+/*  
+    TODO (for styles only, aby work for a specific page needs to be addressed ina comment, in the head tags of that web page):
+    o make text and images responisive 
+    o format the navigation bar
+    o design a booking page
+    o flesh out the other pages with more general content
+
+    Pictures we can use for the website :
+    o https://www.istockphoto.com/search/2/image?family=creative&phrase=natural%20black%20hair (these are really good images for a mobile screen size)
+    o https://images.pexels.com/photos/1319462/pexels-photo-1319462.jpeg?auto=compress&cs=tinysrgb&w=600
+    o https://images.pexels.com/photos/853427/pexels-photo-853427.jpeg?auto=compress&cs=tinysrgb&w=600
+    o https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=600
+    o https://media.cnn.com/api/v1/images/stellar/prod/221021123823-03-hair-straighteners-hair-styling.jpg?c=original
+    o https://media.allure.com/photos/618153bc590337268c4b06fd/4:3/w_2664,h_1998,c_limit/My%20Beautiful%20Black%20Hair%201.jpg 
+    o https://media.glamour.com/photos/5dae01016dc52300087eae8d/1:1/w_1950,h_1950,c_limit/Stocksy_txp95a60f44RZV200_Large_2068534.jpg
+    
+    these websites have a lot of 
+*/
+
+/*
+    this is a resource for backgorund images in bootstrap and ways to style them
+body{
+    background-color:beige;
+}*/
+
+/* Styles for background image (I want different background images for every page)*/
+#indexImg{
+    background-image: url('../Images/graduation_pic.jpg');
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;              /* optional, center the image */
+}
+#AboutImg{
+    background-image: url('../Images/About_Page.jpg');
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;              /* optional, center the image */
+}
+#SerivceImg{
+    background-image: url('../Images/blonde_selife(cropped).jpg');
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;              /* optional, center the image */
+}
+#GalleryImg{
+    background-image: url('../Images/Gallery_Page.jpg');
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;              /* optional, center the image */
+}
+#BookingImg{
+    background-image: url('https://media1.popsugar-assets.com/files/thumbor/CrBb9ifXRBDIc-7HaHWAUTIBPXg/0x0:5714x3000/fit-in/1200x630/filters:format_auto-!!-:strip_icc-!!-/2021/07/21/768/n/1922153/c1479ff060f858ede84f23.34474278_.jpg');
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;              /* optional, center the image */
+}
+/*Styles for service cards*/
+#ServiceCardImg{
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;              /* optional, center the image */
+}
+/* Styles for the nav */
+
+.Header111{
+    font-size: 80px;/*9vw*/
+    /* Center vertically and horizontally */
+    display: flex;
+    /*position: relative;*/
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    top: 25%;
+    /* more styles*/
+    height: 200px;
+    max-width: 600px;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: aliceblue;
+    display: block;
+}
+
+.indexContent{
+    font-size: 20px;/*2.2vw*/
+    font-weight: bold;
+    /* Center vertically and horizontally */
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    top: 25%;
+    /*styles*/
+    display: block;
+    max-width: 275px;
+    max-height: 50px;
+    padding: 5px;
+    -webkit-text-stroke: .2px black;
+    color:azure;
+    /*
+    text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
+    */
+}
+
+.aboutContent{
+    font-size: 20px;/*2.2vw*/
+    font-weight: bold;
+    /* Center vertically and horizontally */
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    top: 5%;
+    /*styles*/
+    display: block;
+    padding: 5px;
+    -webkit-text-stroke: .2px black;
+    color:azure;
+    /*
+    text-shadow:
+    0.07em 0 black,
+    0 0.07em black,
+    -0.07em 0 black,
+    0 -0.07em black;
+    */
+}
+
+.SerivceColor{
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.AboutColor{
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 690px;
+}
+
+.btnCenter{
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+/*
+Media query for services
+*/
+
+@media only screen and (max-width: 991px)  {
+    .ThisIsHidden991{
+        display: none;
+    }
+}
+
+/*
+Media query for headers
+*/
+
+@media only screen and (max-width: 301px)  {
+    .HeaderSize301{
+        font-size: 27vw;/**/
+    }
+}
+
+@media only screen and (max-width: 342px)  {
+    .AboutHeaderSize342{
+        font-size: 22vw;/**/
+    }
+}
+
+@media only screen and (max-width: 420px)  {
+    .HeaderShadow{
+        color: red;
+    /* more styles*/
+    height: 200px;
+    max-width: 600px;
+    -webkit-text-stroke: 0px ;
+    -webkit-text-fill-color: aliceblue;
+    display: block;
+    }
+}
+
+/* media queries for all backgrounds, we are basically changing from cropped at desktop to full image on mobile */
+
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  
+/*Style for a tags inside buttons*/
+button a {
+    color: black;
+}
+button a :link {
+    color: black;
+}
+button a :visited {
+    color: black;
+}
+button a :hover {
+    color: black;
+}
+button a :active {
+    color: black;
+}
+
+
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    a, a:hover {
+      text-decoration: none !important; }
+  
+  .text-black {
+    color: #000; }
+  
+  .content {
+    padding: 7rem 0; }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: 900; }
+  
+  .form-control {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+    background: none; }
+    .form-control:active, .form-control:focus {
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-color: #000; }
+  
+  .col-form-label {
+    color: #000;
+    font-size: 13px; }
+  
+  .btn, .form-control, .custom-select {
+    height: 45px;
+    border-radius: 0; }
+  
+  .custom-select {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0; }
+    .custom-select:active, .custom-select:focus {
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-color: #000; }
+  
+  .btn {
+    border: none;
+    border-radius: 0;
+    font-size: 11px;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    border-radius: 30px !important; }
+    .btn.btn-primary {
+      border-radius: 30px;
+      background: #ef4339;
+      color: #fff;
+      -webkit-box-shadow: 0 15px 30px 0 rgba(239, 67, 57, 0.2);
+      box-shadow: 0 15px 30px 0 rgba(239, 67, 57, 0.2); }
+    .btn:hover {
+      color: #fff; }
+    .btn:active, .btn:focus {
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+  
+  .contact-wrap {
+    -webkit-box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid #efefef; }
+    .contact-wrap .col-form-label {
+      font-size: 14px;
+      color: #b3b3b3;
+      margin: 0 0 10px 0;
+      display: inline-block;
+      padding: 0; }
+    .contact-wrap .form, .contact-wrap .contact-info {
+      padding: 40px; }
+    .contact-wrap .contact-info {
+      color: rgba(255, 255, 255, 0.5); }
+      .contact-wrap .contact-info ul li {
+        margin-bottom: 15px;
+        color: rgba(255, 255, 255, 0.5); }
+        .contact-wrap .contact-info ul li .wrap-icon {
+          font-size: 20px;
+          color: #fff;
+          margin-top: 5px; }
+    .contact-wrap .form {
+      background: #fff; }
+      .contact-wrap .form h3 {
+        color: #000;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 30px; }
+    .contact-wrap .contact-info {
+      height: 100vh;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      .contact-wrap .contact-info a {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0; }
+      @media (max-width: 1199.98px) {
+        .contact-wrap .contact-info {
+          height: 400px !important; } }
+      .contact-wrap .contact-info h3 {
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 30px; }
+  
+  label.error {
+    font-size: 12px;
+    color: red; }
+  
+  #message {
+    resize: vertical; }
+  
+  #form-message-warning, #form-message-success {
+    display: none; }
+  
+  #form-message-warning {
+    color: #B90B0B; }
+  
+  #form-message-success {
+    color: #55A44E;
+    font-size: 18px;
+    font-weight: bold; }
+  
+  .submitting {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    display: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000; }
