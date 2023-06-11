@@ -215,9 +215,19 @@ Media query for headers
     }
 }
 
-@media only screen and (max-width: 420px)  {
+@media only screen and (max-width: 576px)  {
     .HeaderShadow{
-        color: red;
+    /* more styles*/
+    height: 200px;
+    max-width: 600px;
+    -webkit-text-stroke: 0px ;
+    -webkit-text-fill-color: aliceblue;
+    display: block;
+    }
+}
+
+@media only screen and (max-height: 576px)  {
+    .HeaderShadowHeight{
     /* more styles*/
     height: 200px;
     max-width: 600px;
@@ -228,7 +238,10 @@ Media query for headers
 }
 
 /* media queries for all backgrounds, we are basically changing from cropped at desktop to full image on mobile */
+/* service background  */
+@media only screen and (min-height: 380px)  {
 
+}
 
 a:link {
     text-decoration: none;

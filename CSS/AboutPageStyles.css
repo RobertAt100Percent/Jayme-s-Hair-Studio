@@ -238,6 +238,10 @@ button a :active {
     color: black;
 }
 
+/* 
+these styles are for the contact / email part of the page. 
+be sure to understand how this code works and make it secure for clients and Jayme's to use
+*/
 
 a {
     -webkit-transition: .3s all ease;
