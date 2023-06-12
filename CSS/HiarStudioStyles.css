@@ -212,7 +212,7 @@ Media query for headers
 /* this is for the about header in a mobile phone view */
 @media only screen and (max-width: 342px)  {
     .AboutHeaderSize341{
-        font-size: 27vh;
+        font-size:7vh;
     }
 }
 
