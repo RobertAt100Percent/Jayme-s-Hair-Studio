@@ -209,9 +209,10 @@ Media query for headers
     }
 }
 
+/* this is for the about header in a mobile phone view */
 @media only screen and (max-width: 342px)  {
-    .AboutHeaderSize342{
-        font-size: 22vw;/**/
+    .AboutHeaderSize341{
+        font-size: 27vh;
     }
 }
 

@@ -23,6 +23,19 @@ TODO:
   * {
     box-sizing: border-box;
   }
+  .aboutP{
+    text-align: justify;
+  }
+  .FloatLeft{
+    float: left;
+    vertical-align: top;
+    height: 70px;
+    width: 130px;
+  }
+  .btnSize{
+    height: 70px;
+    width: 130px;
+  }
   
   input[type=text], select, textarea {
     width: 100%;
@@ -83,6 +96,21 @@ TODO:
       width: 100%;
       margin-top: 0;
     }
+
+    .Hidden600max{
+      display: none;
+    }
+
+    .btnReset600{
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  @media screen and (min-width: 601px) {
+    .Hidden600min{
+      display: none;
+    }
   }
   </style>
 </head><!--end of the head-->
@@ -112,7 +140,7 @@ TODO:
           </nav>
 
 
-          <h1 class="Header111 HeaderSize301 HeaderShadow HeaderShadowHeight"> 
+          <h1 class="Header111 HeaderSize301 HeaderShadow HeaderShadowHeight AboutHeaderSize341"> 
             Your Hair Your Way
         </h1>
     </header>
@@ -131,23 +159,36 @@ TODO:
       <button class="btnCenter"> <a href="BookingPage_1.html"> Book Now </a>&#187;</button>
 
 
-      <form action="mailto:exampleEmail@yahoo.com" method="post" enctype="text/plain">
+      <form action="mailto:ExampleEmail@gmail.com" method="post" enctype="text/plain">
         Name:<br>
         <input type="text" name="name" autocomplete="given-name"><br><br>
         E-mail:<br>
         <input type="text" name="mail" autocomplete="email"><br><br>
         Comment:<br>
         <input type="text" name="comment" size="80" autocomplete="off"><br><br>
-        <input type="submit" value="Send">
-        <input type="reset" value="Reset">
+        <span style="display: inline"><input type="submit" value="Send" class="btnSize"></span>
+        <!-- <input type="reset" value="Reset"> -->
+
+        <span style="display: inline">
+        <div class="row">
+          <div class="col-3">
+            <button class="btn btn-primary btn-block p-3 mb-2 bg-secondary text-white FloatLeft Hidden600max">Reset</button>
+          </div><!-- /col -->
+        </div>
+      </span>
+
+        <br>
+
+        <div class="row">
+          <div class="col-md-4 col-lg-2">
+            <br>
+            <button class="btn btn-primary btn-block p-3 mb-2 bg-secondary text-white btnReset600 Hidden600min">Reset</button>
+          </div>
+        </div>        
         </form>
 
-        <div id="form-message-warning mt-4"></div>
-        <div id="form-message-success">
-        Your message was sent, thank you!
-        </div>
-    <br>
 </div>
+
 <br><br><br>
 <br><br><br>
 <!-- 
