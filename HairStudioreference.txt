@@ -76,4 +76,5 @@ these are the links needed to use the newest version of BootStrap:
     - this needs to verify and alert both Jayme's and her client that their message was sent and recived
  o make Jayme's the background picture of the home page( if it fits)
  o make all the backgrpund images fit and stay fixed
- 
+ o add api and database functionality - https://www.openlegacy.com/blog/whats-an-api/#:~:text=APIs%20are%20built%20using%20programming,information%20for%20each%20API%20call.
+  
